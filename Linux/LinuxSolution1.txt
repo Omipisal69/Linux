@@ -1,0 +1,167 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Display only the day of system date.    
+sol. date +%a
+   date +%A
+
+
+
+2. Display only the month of system date.
+sol. date +%b
+   date +%B
+
+
+
+3. Execute the command to check hidden files.
+sol. ls -a
+
+
+4. Execute command ls -l and study it in details again.
+sol. ls -l
+
+
+5. Create file f1 of size 0 bytes.
+sol. touch f1
+
+
+6. Create file f11 f12 f13 of size 0 bytes using single command.
+sol. touch f11 f12 f13 
+
+
+
+7. List all the files in your current directory.
+sol. ls
+
+8. Create file Country and store names of 5 countries.Use cat command.
+sol. cat >country
+   India
+   Nepal
+   Bangladesh
+   ShriLanka
+   Bhutan
+   ctrl+d
+
+
+
+9. Display contents of file Country.
+sol. cat country
+
+
+10. Create another file by name MoreCountries and store 5 more country names.
+sol. cat > MoreCountries
+    USA
+    UK
+    Poland
+    Germany
+    Austria
+    ctrl+d
+
+
+11. Display contents of MoreCountries.
+sol. cat MoreCountries
+
+
+12. Copy contents of file Country in another file by name NewCountry.
+sol. cp country NewCountry
+
+13. See directory listing and check all file names you have created.
+sol. ls
+
+
+
+14. Rename file Country to NewCountry and check in directory listing if file
+    by name Country exsists.
+sol. mv country CountryList
+
+
+15. Move contents of file MoreCountries in MoreCountries1. Check directory
+    listing.
+sol. mv MoreCountries MoreCountries1
+
+
+16. Delete file f12.
+sol. rm f12
+
+
+17. Delete file f11 and f13 using single command.
+sol. rm f11 f13
+
+18. Clear the screen.
+sol. clear
+
+19. Try cal command with all options.
+sol.
+
+
+20. Try date command with all options.
+
+
+21. Diaplay contents of both the files NewCountry and MoreCountries1 using 
+    single command.
+sol.cat NewCountry MoreCountries1
+
+22. Add 2 more country names in file NewCountry.
+sol. cat >> NewCountry
+    Pakistan
+    Afghanistan
+    ctrl+d
+
+
+23. Copy contents of file NewCountry at the end of MoreCountries1.
+sol. cat NewCountry >> MoreCountries1
+
+24. Execute command whoami.
+sol. whoami
+
+
+25. Execute man command for ls.
+sol.
+
+
+26. Create directory CDAC.
+sol. mkdir CDAC
+
+29. Create files Trainers, Students and Admin with some meaningful entries
+    under directory CDAC.
+sol. cat>Trainers
+    some entry
+    ctrl+d
+    
+    cat>Students
+    some entry
+    ctrl+d
+
+    cat>Admin
+    some entry
+    ctrl+d
+
+
+28. ls
+29. cd ..
+30. pwd
+    ls
+ 
+ 
+
+27. Change directory to CDAC.
+28. Execute command pwd and see the path.
+
+30. Check directory listing.
+31. Change your directory one level back.
+32. Check output of pwd and ls commands.
+31. Create 2 directories eDAC and eDBDA under directory CDAC.
+32. Using relative path create file DAC-Subject with names of 3 subjects and
+    file DBDA-Subject with names of 3 subjects under directories eDAC and 
+    eDBDA respectively.
+
